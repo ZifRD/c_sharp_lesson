@@ -1,0 +1,58 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Properties="clr-namespace:WindowsFormsApplication6form.Properties" x:Class="WindowsFormsApplication6form.EqSteps" 
+             mc:Ignorable="d" Height="655.82" Width="988.944">
+    <Grid Margin="23,18,0,0" Height="628" VerticalAlignment="Top" HorizontalAlignment="Left" Width="908">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Use the solution on the right to arrange captions on the left in correct order " HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="43" Width="888" FontSize="26" Foreground="#FF364CAA"/>
+        <Canvas x:Name="LayoutRoot" Background="White" Margin="10,48,10,-0.2" Grid.RowSpan="2">
+
+            <Rectangle x:Name="p3" Height="70" Stroke="White" StrokeThickness="4" Width="560" HorizontalAlignment="Left" VerticalAlignment="Bottom" Canvas.Left="10" Canvas.Top="165" MouseLeftButtonDown="shape_MouseLeftButtonDown" MouseLeftButtonUp="shape_MouseLeftButtonUp" MouseMove="shape_MouseMove">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="pack://application:,,,/WindowsFormsApplication6form;component/Resources/steps3.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="p5" Height="70" Stroke="White" StrokeThickness="4" Width="560" HorizontalAlignment="Left" VerticalAlignment="Bottom" Canvas.Top="90" MouseLeftButtonDown="shape_MouseLeftButtonDown" MouseLeftButtonUp="shape_MouseLeftButtonUp" MouseMove="shape_MouseMove" Canvas.Left="10">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="pack://application:,,,/WindowsFormsApplication6form;component/Resources/steps5.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="p4" Height="70" Stroke="White" StrokeThickness="4" Width="560" HorizontalAlignment="Left" VerticalAlignment="Bottom" Canvas.Left="10" Canvas.Top="464" MouseLeftButtonDown="shape_MouseLeftButtonDown" MouseLeftButtonUp="shape_MouseLeftButtonUp" MouseMove="shape_MouseMove">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="pack://application:,,,/WindowsFormsApplication6form;component/Resources/steps4.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="p1" Height="70" Stroke="White" StrokeThickness="4" Width="560" HorizontalAlignment="Left" VerticalAlignment="Bottom" Canvas.Left="10" Canvas.Top="239" MouseLeftButtonDown="shape_MouseLeftButtonDown" MouseLeftButtonUp="shape_MouseLeftButtonUp" MouseMove="shape_MouseMove">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="pack://application:,,,/WindowsFormsApplication6form;component/Resources/steps1.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="p6" Height="70" Stroke="White" StrokeThickness="4" Width="560" HorizontalAlignment="Left" VerticalAlignment="Bottom" Canvas.Left="10" Canvas.Top="314" MouseLeftButtonDown="shape_MouseLeftButtonDown" MouseLeftButtonUp="shape_MouseLeftButtonUp" MouseMove="shape_MouseMove">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="pack://application:,,,/WindowsFormsApplication6form;component/Resources/steps6.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle x:Name="p2" Height="70" Stroke="White" StrokeThickness="4" Width="560" HorizontalAlignment="Left" VerticalAlignment="Bottom" Canvas.Top="384" MouseLeftButtonDown="shape_MouseLeftButtonDown" MouseLeftButtonUp="shape_MouseLeftButtonUp" MouseMove="shape_MouseMove" Canvas.Left="10">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="pack://application:,,,/WindowsFormsApplication6form;component/Resources/steps2.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+
+
+
+
+        </Canvas>
+        <Canvas HorizontalAlignment="Left" Height="570" Margin="586,48,0,0" VerticalAlignment="Top" Width="322">
+            <Canvas.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Resources/equat.png"/>
+            </Canvas.Background>
+        </Canvas>
+    </Grid>
+</UserControl>
